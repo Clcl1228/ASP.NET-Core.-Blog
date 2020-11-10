@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Code.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Code.Api.Appsettings.app(System.String[])">
+            <summary>
+            封装要操作的字符
+            </summary>
+            <param name="sections"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Code.Api.Controllers.BaByYouController">
+            <summary>
+            油魂主殿
+            </summary>
+        </member>
+        <member name="M:Code.Api.Controllers.BaByYouController.Get">
+            <summary>
+            获取秘籍:油满天下
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Code.Api.Controllers.BaByYouController.Get(System.String)">
+            <summary>
+            获取秘籍:比比油
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Code.Api.Controllers.BaByYouController.Post(You.Core.Model.You)">
+            <summary>
+             获取油力等级
+            </summary>
+            <param name="you">实体类：油参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Code.Api.JwtHelper.IssueJwt(Code.Api.TokenModelJwt)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Code.Api.JwtHelper.SerializeJwt(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Code.Api.TokenModelJwt">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:Code.Api.TokenModelJwt.Uid">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Code.Api.TokenModelJwt.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:Code.Api.TokenModelJwt.Work">
+            <summary>
+            职能
+            </summary>
+        </member>
+        <member name="M:Code.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="configuration"></param>
+        </member>
+    </members>
+</doc>

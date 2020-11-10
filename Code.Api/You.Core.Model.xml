@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>You.Core.Model</name>
+    </assembly>
+    <members>
+        <member name="T:You.Core.Model.You">
+            <summary>
+            油
+            </summary>
+        </member>
+        <member name="P:You.Core.Model.You.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:You.Core.Model.You.YouHun">
+            <summary>
+            油魂
+            </summary>
+        </member>
+        <member name="P:You.Core.Model.You.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+    </members>
+</doc>
